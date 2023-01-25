@@ -113,6 +113,10 @@
       "textTransform": true,
       "letterSpacing": true,
       "textDecoration": true
+    },
+    "layout": {
+      "contentSize": "900px",
+      "wideSize": "1200px"
     }
   },
   "styles": {
