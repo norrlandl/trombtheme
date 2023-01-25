@@ -1,4 +1,37 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
-  "version": 2
+  "version": 2,
+  "settings": {
+    "color": {
+      "defaultPalette": false, 
+      "palette":[
+        { "slug": "t-white", "color": "rgb(255,255,255)", "name": "Tromb White"},
+        { "slug": "t-gray-100", "color": "rgb(243 244 246)", "name": "Tromb Gray 100" },
+        { "slug": "t-gray-200", "color": "rgb(229 231 235)", "name": "Tromb Gray 200" },
+        { "slug": "t-gray-300", "color": "rgb(209 213 219)", "name": "Tromb Gray 300" },
+        { "slug": "t-gray-400", "color": "rgb(156 163 175)", "name": "Tromb Gray 400" },
+        { "slug": "t-gray-500", "color": "rgb(107 114 128)", "name": "Tromb Gray 500" },
+        { "slug": "t-gray-600", "color": "rgb(75 85 99)", "name": "Tromb Gray 600" },
+        { "slug": "t-gray-700", "color": "rgb(55 65 81)", "name": "Tromb Gray 700" },
+        { "slug": "t-gray-800", "color": "rgb(31 41 55)", "name": "Tromb Gray 800" },
+        { "slug": "t-gray-900", "color": "rgb(17 24 39)", "name": "Tromb Gray 900" },
+        { "slug": "t-primary", "color": "rgb(239 68 68)", "name": "Tromb Primary" },
+        { "slug": "t-accent", "color": "rgb(67 56 202)", "name": "Tromb Accent" },
+        { "slug": "t-success", "color": "rgb(52 211 153)", "name": "Tromb Success" },
+        { "slug": "t-info", "color": "rgb(96 165 250)", "name": "Tromb Info" },
+        { "slug": "t-warning", "color": "rgb(251 146 60)", "name": "Tromb Warning" },
+        { "slug": "t-danger", "color": "rgb(236 72 153)", "name": "Tromb Danger" }
+      ]
+    },
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "defaultPalette": true,
+          "palette": [
+            { "slug": "t-primary", "color": "#ef4444", "name": "Tromb Primary"}
+          ] 
+        }
+      }
+    }
+  }
 }
