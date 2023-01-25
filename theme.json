@@ -5,22 +5,47 @@
     "color": {
       "defaultPalette": false, 
       "palette":[
-        { "slug": "t-white", "color": "rgb(255,255,255)", "name": "Tromb White"},
-        { "slug": "t-gray-100", "color": "rgb(243 244 246)", "name": "Tromb Gray 100" },
-        { "slug": "t-gray-200", "color": "rgb(229 231 235)", "name": "Tromb Gray 200" },
-        { "slug": "t-gray-300", "color": "rgb(209 213 219)", "name": "Tromb Gray 300" },
-        { "slug": "t-gray-400", "color": "rgb(156 163 175)", "name": "Tromb Gray 400" },
-        { "slug": "t-gray-500", "color": "rgb(107 114 128)", "name": "Tromb Gray 500" },
-        { "slug": "t-gray-600", "color": "rgb(75 85 99)", "name": "Tromb Gray 600" },
-        { "slug": "t-gray-700", "color": "rgb(55 65 81)", "name": "Tromb Gray 700" },
-        { "slug": "t-gray-800", "color": "rgb(31 41 55)", "name": "Tromb Gray 800" },
-        { "slug": "t-gray-900", "color": "rgb(17 24 39)", "name": "Tromb Gray 900" },
-        { "slug": "t-primary", "color": "rgb(239 68 68)", "name": "Tromb Primary" },
-        { "slug": "t-accent", "color": "rgb(67 56 202)", "name": "Tromb Accent" },
+        { "slug": "t-white", "color": "#FFFFFF", "name": "Tromb White"},
+        { "slug": "t-gray-100", "color": "#FCFBFB", "name": "Tromb Gray 100" },
+        { "slug": "t-gray-200", "color": "#D7D5D5", "name": "Tromb Gray 200" },
+        { "slug": "t-gray-300", "color": "#B9B6B6", "name": "Tromb Gray 300" },
+        { "slug": "t-gray-400", "color": "#9B9797", "name": "Tromb Gray 400" },
+        { "slug": "t-gray-500", "color": "#878282", "name": "Tromb Gray 500" },
+        { "slug": "t-gray-600", "color": "#686464", "name": "Tromb Gray 600" },
+        { "slug": "t-gray-700", "color": "#535050", "name": "Tromb Gray 700" },
+        { "slug": "t-gray-800", "color": "#3E3C3C", "name": "Tromb Gray 800" },
+        { "slug": "t-gray-900", "color": "#1F1E1E", "name": "Tromb Gray 900" },
+        { "slug": "t-primary", "color": "#631618", "name": "Tromb Primary" },
+        { "slug": "t-secondary", "color": "#AE2D63", "name": "Tromb Secondary" },
+        { "slug": "t-accent", "color": "#0F7173", "name": "Tromb Accent" },
         { "slug": "t-success", "color": "rgb(52 211 153)", "name": "Tromb Success" },
         { "slug": "t-info", "color": "rgb(96 165 250)", "name": "Tromb Info" },
         { "slug": "t-warning", "color": "rgb(251 146 60)", "name": "Tromb Warning" },
         { "slug": "t-danger", "color": "rgb(236 72 153)", "name": "Tromb Danger" }
+      ],
+      "background": true,
+      "text": true,
+      "link": true,
+      "custom": true,
+      "duotone": [
+        { 
+          "slug": "t-pink-sunset", 
+          "colors": ["#11245e", "#dc4379"], 
+          "name": "Tromb Pink Sunset"
+        }
+      ], 
+      "defaultGradients": false,
+      "gradients": [
+        { 
+          "slug": "t-summer-cocktail", 
+          "name": "Tromb summer cocktail", 
+          "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+        },
+        { 
+          "slug": "t-pink-smoothie", 
+          "name": "Tromb pink gradient", 
+          "gradient": "linear-gradient(#AE2D63, #611937)"
+        }
       ]
     },
     "blocks": {
@@ -28,10 +53,112 @@
         "color": {
           "defaultPalette": true,
           "palette": [
-            { "slug": "t-primary", "color": "#ef4444", "name": "Tromb Primary"}
-          ] 
+            { "slug": "t-primary", "color": "#631618", "name": "Tromb Primary"},
+            { "slug": "t-secondary", "color": "#AE2D63", "name": "Tromb Secondary"},
+            { "slug": "t-accent", "color": "#0F7173", "name": "Tromb Accent"}
+          ], 
+          "link": true,
+          "custom": false,
+          "gradients": [],
+          "customGradient": false
+        },
+        "typography": {
+          "fontFamilies": [
+            { 
+              "fontFamily": "Quicksand, sans-serif;", 
+              "slug": "t-quicksand",
+              "name": "Tromb Quicksand"
+            }
+          ]
+        }
+      },
+      "core/cover": {
+        "color": {
+          "duotone": [],
+          "customDuotone": false
+        }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSizes": [],
+          "customFontSize": false
         }
       }
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        { 
+          "fontFamily": "Rubik, sans-serif;", 
+          "slug": "t-rubik",
+          "name": "Tromb Rubik"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.75rem", "name": "Small" },
+        { "slug": "medium", "size": "1.25rem", "name": "Medium" },
+        { "slug": "large", "size": "2.25rem", "name": "Large" },
+        { "slug": "x-large", "size": "3rem", "name": "Extra Large" },
+        { "slug": "gigantic", "size": "3.75rem", "name": "Gigantic" }
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontWeight": true,
+      "fontStyle": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--t-gray-700)",
+      "background": "var(--wp--preset--color--t-gray-100)"
+    },
+    "elements": {
+      "link":{
+        "color": {
+          "text": "var(--wp--preset--color--t-primary)"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--t-pink-smoothie)"
+        },
+        "border": {
+          "radius": "8px"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "2px",
+          "radius": "10px",
+          "style": "solid",
+          "color": "var(--wp--preset--gradient--t-gray-700)"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--t-quicksand)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--u-rubik)",
+      "fontSize": "18px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "27px",
+      "textDecoration": "none",
+      "textTransform": "none"
     }
   }
 }
+
