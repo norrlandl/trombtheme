@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
 <head>
@@ -8,8 +8,10 @@
 
 <body <?php body_class('example'); ?>>
     <?php wp_body_open(); ?>
+
     <p>Hello you</p>
+
     <?php wp_footer(); ?>
 </body>
 
-</html> -->
+</html>
