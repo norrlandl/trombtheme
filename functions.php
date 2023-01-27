@@ -1,6 +1,5 @@
 <?php
 
-
 // Variables
 
 // Includes
